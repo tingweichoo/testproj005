@@ -46,6 +46,4 @@ jobs:
           clientID: client:dai:agent:integration
           # The client secret to use to authenticate with the Eggplant DAI server  [env var: DAI_CLIENT_SECRET; required]
           clientSecret: c38ce33d-5644-4198-b28f-9cf3d9ac05e4
-          # Location to store the test results generated from test configuration execution
-          testResultPath: testproj005/TestResult/
 
