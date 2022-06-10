@@ -26,5 +26,4 @@ jobs:
           testConfigID: 307fee3e-9d6b-43e6-b31e-f1d379f27cdf
           clientID: client:dai:agent:integration
           clientSecret: 6f8cba65-28d3-47af-ada9-9ba3e7718546
-          testResultPath: testproj005/TestResult
 
