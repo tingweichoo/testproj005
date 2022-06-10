@@ -21,14 +21,10 @@ jobs:
       - name: TW_Test
         uses: tingweichoo/testproj004@twtest
         with:
-          # The URL of Eggplant DAI server, e.g. http://localhost:8000
-          serverURL: https://edge.dai.webperfdev.com/
-          # The ID of the Eggplant DAI test configuration that you want to run, e.g. 09c48b7d-fc5b-481d-af80-fcffad5d9587
-          testConfigID: 307fee3e-9d6b-43e6-b31e-f1d379f27cdf
-          # The client ID to use to authenticate with the Eggplant DAI server  [default: client:dai:agent:integration]
-          clientID: client:dai:agent:integration
-          # The client secret to use to authenticate with the Eggplant DAI server  [env var: DAI_CLIENT_SECRET; required]
-          clientSecret: c38ce33d-5644-4198-b28f-9cf3d9ac05e4
           dryRun: true
+          serverURL: https://edge.dai.webperfdev.com/
+          testConfigID: 307fee3e-9d6b-43e6-b31e-f1d379f27cdf
+          clientID: client:dai:agent:integration
+          clientSecret: c38ce33d-5644-4198-b28f-9cf3d9ac05e4
           testResultPath: testproj005/TestResult
 
