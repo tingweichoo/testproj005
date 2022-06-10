@@ -35,8 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      - name: Eggplant Runner
-        uses: TestPlant/eggplant-github-action@v1.0.0
+      - name: TW_Test
+        uses: tingweichoo/testproj004@twtest
         with:
           # The URL of Eggplant DAI server, e.g. http://localhost:8000
           serverURL: https://edge.dai.webperfdev.com/
@@ -46,4 +46,5 @@ jobs:
           clientID: client:dai:agent:integration
           # The client secret to use to authenticate with the Eggplant DAI server  [env var: DAI_CLIENT_SECRET; required]
           clientSecret: c38ce33d-5644-4198-b28f-9cf3d9ac05e4
+          dryRun: true
 
